@@ -1,0 +1,117 @@
+html{
+  background-image:url(img/fone.jpg);
+  font-family:Arial;
+  background-repeat:no-repeat;
+   -webkit-background-size: 100%;
+  /* Safari 3.1+ и Chrome 4.0+ */
+  background-attachment: fixed; }
+
+  body{
+  width:1100px;
+  margin: 0 auto;
+  background-color:white;
+  background-image:url(img/ozero.jpg);
+  background-repeat:no-repeat;
+  padding-top:400px;
+  height: 100%;
+  background-position: top;
+  background-size: 100% auto;
+  font-size: 0px;
+
+}
+
+.menu1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.menu2 {
+    float: left;
+}
+
+.menu2 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.menu2 a:hover {
+    background-color: #111111;
+}
+.menu-location{
+  margin-top: -400px;
+}
+
+.icon-class{
+  display: inline;
+
+}
+ul.hr li {
+    display: inline;}
+
+
+
+
+
+
+    ul.hr li {
+    display: inline;}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+  background-color:  #111111;
+
+}
+.menu ul li{
+  display: inline-block;
+  padding: 20px;
+
+}
+.menu li:hover ul{
+  display: block;
+
+}
+.menu ul{
+  position:  relative;
+  background-color: #333333;
+
+}
+.menu li:hover li{
+  display: block;
+}
+.menu ul ul a{
+  text-decoration: none;
+}
+.menu ul a{
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+}
+.menu ul > li:hover{
+  background-color: #111111;
+}
+.title{
+  margin-top: 500px;  
+  font-family: sans-serif; 
+  color: white; 
+  font-size: 70px;
+  margin-top:  240px;
+}
+h2{
+	font-size: 40px;
+	font-style: italic;
+	color: #0fd8da;
+	border-bottom:2px  solid #0fd8da;
+	margin: 30px 30px 0 30px;
+	margin-top: 20px;
+}
+
+p{
+ font-style: sans-serif;
+}

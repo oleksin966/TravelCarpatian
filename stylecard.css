@@ -1,0 +1,282 @@
+html{
+  background-image:url(img/fone.jpg);
+  font-family:Arial;
+  background-repeat:no-repeat;
+   -webkit-background-size: 100%;
+  /* Safari 3.1+ и Chrome 4.0+ */
+  background-attachment: fixed; 
+  
+  
+}
+body{
+  width:1100px;
+  margin: 0 auto;
+  background-color:white;
+  background-image:url(img/voda2.jpg);
+  background-repeat:no-repeat;
+  padding-top:400px;
+  height: 100%;
+  background-position: top;
+  background-size: 100% auto;
+  font-size: 0px;
+
+}
+.menu{
+  z-index: 10;
+}
+
+.menu1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.menu2 {
+    float: left;
+}
+
+.menu2 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.menu2 a:hover {
+    background-color: #111111;
+}
+.menu-location{
+  margin-top: -400px;
+}
+
+.icon-class{
+  display: inline;
+
+}
+ul.hr li {
+    display: inline;}
+
+.menu > ul{
+  position:  relative;
+  background:linear-gradient(0deg, #111,#222,#777, #fff);
+
+}
+.menu li:hover li{
+  display: block;
+  border-top: 2px solid gray;
+}
+.menu li:hover li:last-child{
+  border-bottom: 2px solid gray;
+}
+
+
+
+
+    ul.hr li {
+    display: inline;}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+  background-color:  #111111;
+
+}
+.menu ul li{
+  display: inline-block;
+  padding: 20px;
+
+}
+.menu li:hover ul{
+  display: block;
+
+}
+.menu ul{
+  position:  relative;
+  background-color: #333333;
+
+
+}
+.menu li:hover li{
+  display: block;
+}
+.menu ul ul a{
+  text-decoration: none;
+}
+.menu ul a{
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+}
+.menu ul > li:hover{
+  background-color: #111111;
+}
+.menu{
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 0px;
+margin-top: 0px; 
+}
+#title-id{
+  margin-top: 400px;
+}
+
+.img-class{
+  height: 600px;
+  width: 100%;
+}
+    
+.header{
+  height: 500px;
+  width: 75%;
+  position: absolute;
+  top: 100px;
+ 
+}
+.title{
+  margin-top: 500px;  
+  font-family: sans-serif; 
+  color: white; 
+  font-size: 80px;
+  margin-top:  240px;
+}
+h3{
+  font-style:  Italic;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+}
+#title1{
+  margin-top: -80px;
+}
+h2{
+  border-bottom: 2px solid #1c9ab1;
+  margin: 20px 30px 0 30px;
+  padding-top: 60px;
+  font-size:40px;
+  color:#1c9ab1;
+ }
+
+
+.sinevir{
+  height: 300px;
+  width: 320px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border : 3px solid silver;
+  display: inline-table;
+ 
+
+
+ 
+
+}
+p{
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+  font-style: italic;
+
+}
+#lake{
+  text-align: center;
+}
+#name-sinevir{
+margin: 20px 30px 0 30px;
+  padding-top: 60px;
+  font-size:40px;
+  color:#1c9ab1;
+
+}
+h4{
+  margin-top:  -40px; 
+  font-family: sans-serif;
+  color: white; 
+  font-size: 40px;
+  font-style: italic;
+  text-shadow: rgba(0,0,0, .6) 2px 2px 2px;
+  text-decoration: none;
+}
+ .sinevir1 {
+ margin: 10px;
+}
+.menu-lake{
+  margin-left: 32px;
+}
+.sinevir2{
+  margin-top: -30px;
+}
+.sinevir3{
+  height: 680px;
+
+}
+
+#text-style{
+  font-size: 25px;
+  text-align: center;
+  color: grey;
+
+}
+#girl-plach{
+  margin-top: -100px;
+  text-decoration: none;
+}
+#girl-palch1{
+  height: 805px;
+}
+#girl-plach2{
+  margin-top: -500px;
+}
+
+img,h4{
+  opacity: 1;
+}
+
+
+
+.foto img:hover{
+   background-color: black;
+  opacity: 0.7;
+  }
+h4{
+ opacity: 0.99;
+ background-color: none;
+text-shadow: rgba(0,0,0, .7) 2px 2px 2px; 
+
+}
+#id-h4{
+  color: black;
+}
+a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание 
+                                   при наведении курсора мыши на ссылку */
+    color: white;                    
+   }
+a { 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+#title1{
+  display: inline;
+  
+  text-decoration: none;
+
+}
+  .line a:hover{
+   text-decoration: underline; /* Добавляем подчеркивание 
+                                   при наведении курсора мыши на ссылку */
+    color:#33ccff; 
+
+}
+.line a:visited {
+  color: #33ccff;
+
+}
+#line-none{
+  text-decoration: none;
+}
